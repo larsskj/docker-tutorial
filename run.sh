@@ -15,5 +15,5 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -v /etc/timezone:/etc/timezone:ro \
 	-p 8080:80 \
-	docker.artifactory.skjaerlund.dk/kilroy-www
+	larsskj/kilroy-www
 
